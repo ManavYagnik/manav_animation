@@ -1,0 +1,69 @@
+.img-container{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    
+  
+  }
+  
+  .img1 {
+  
+      width: 100%;
+      animation: rotation1 20s infinite linear;
+      z-index: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      
+      
+      
+  }
+  .img1>img{
+    width: 100%;
+  }
+    
+  
+  
+  
+  
+  @keyframes rotation1 {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+  
+    .img2 {
+  
+      width: 70%;
+      animation: rotation2 10s infinite linear;
+      z-index: 2;
+      position: absolute;
+      top:15%;
+      left: 15%;
+  
+      
+      
+      
+  }
+  .img2>img{
+    width: 100%;
+  }
+    
+  
+.input{
+  background-color: brown;
+}
+  
+  
+  @keyframes rotation2 {
+      from {
+        transform: rotate(350deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+  
